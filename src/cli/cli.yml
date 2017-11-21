@@ -1,0 +1,31 @@
+name: myapp
+version: "1.0"
+author: Kevin K. <kbknapp@gmail.com>
+about: Does awesome things
+args:
+    - config:
+        short: c
+        long: config
+        value_name: FILE
+        help: Sets a custom config file
+        takes_value: true
+    - INPUT:
+        help: Sets the input file to use
+        required: false
+        index: 1
+    - verbose:
+        short: v
+        multiple: true
+        help: Sets the level of verbosity
+subcommands:
+    - server:
+        about: start http server
+        version: "0.1.0"
+        author: Wei Zhong<zhongwei99@163.com>
+        args:
+            - debug:
+                short: d
+                help: print debug information
+            - port:
+                short: p
+                help: set port for server
