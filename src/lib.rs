@@ -5,6 +5,13 @@ extern crate rocket;
 #[macro_use]
 extern crate clap;
 
-pub mod server;
+#[macro_use]
+extern crate diesel;
+#[macro_use]
+extern crate diesel_infer_schema;
+extern crate dotenv;
 
+
+pub mod server;
 pub mod cli;
+pub mod db;
