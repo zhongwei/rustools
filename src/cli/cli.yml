@@ -18,8 +18,8 @@ args:
         multiple: true
         help: Sets the level of verbosity
 subcommands:
-    - server:
-        about: start http server
+    - test:
+        about: test command line
         version: "0.1.0"
         author: Wei Zhong<zhongwei99@163.com>
         args:

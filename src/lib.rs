@@ -12,6 +12,6 @@ extern crate diesel_infer_schema;
 extern crate dotenv;
 
 
-pub mod server;
+pub mod http;
 pub mod cli;
 pub mod db;

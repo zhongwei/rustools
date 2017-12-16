@@ -13,8 +13,12 @@ name = "rustools"
 path = "src/lib.rs"
 
 [[bin]]
-name = "svr"
-path = "src/bin/rustools.rs"
+name = "http"
+path = "src/bin/http.rs"
+
+[[bin]]
+name = "cli"
+path = "src/bin/cli.rs"
 
 [[bin]]
 name = "show"

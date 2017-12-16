@@ -1,14 +1,11 @@
 use clap::ArgMatches;
-use super::super::server;
 
 pub fn from_args(args: &ArgMatches) {
-        if let Some(args) = args.subcommand_matches("server") {
+        if let Some(args) = args.subcommand_matches("test") {
             if args.is_present("port") {
-                println!("aaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            server::start();
+                println!("present port parameter");
             } else {
-                println!("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
-            server::start();
+                println!("no parameter");
             }
         }
 }
