@@ -13,8 +13,24 @@ name = "rustools"
 path = "src/lib.rs"
 
 [[bin]]
-name = "rt"
+name = "svr"
 path = "src/bin/rustools.rs"
+
+[[bin]]
+name = "show"
+path = "src/bin/show_posts.rs"
+
+[[bin]]
+name = "wt"
+path = "src/bin/write_post.rs"
+
+[[bin]]
+name = "del"
+path = "src/bin/del_post.rs"
+
+[[bin]]
+name = "pub"
+path = "src/bin/pub_post.rs"
 
 [[test]]
 name = "test"
