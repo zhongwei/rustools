@@ -52,9 +52,9 @@ path = "benches/rustools.rs"
 
 [dependencies]
 clap = {version = "2", features=["yaml"]}
-rocket = "0.3.4"
-rocket_codegen = "0.3.4"
-diesel = { version = "1.0.0-beta1", features = ["postgres"] }
-diesel_infer_schema = { version = "1.0.0-beta1", features = ["postgres"] }
-dotenv = "0.10"
+rocket = "0.3.5"
+rocket_codegen = "0.3.5"
+diesel = { version = "1.0.0", features = ["postgres"] }
+diesel_infer_schema = { version = "1.0.0", features = ["postgres"] }
+dotenv = "0.10.1"
 
