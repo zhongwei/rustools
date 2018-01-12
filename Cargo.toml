@@ -36,6 +36,10 @@ path = "src/bin/del_post.rs"
 name = "pub"
 path = "src/bin/pub_post.rs"
 
+[[bin]]
+name = "rocksdb"
+path = "src/bin/rocksdb.rs"
+
 [[test]]
 name = "test"
 path = "tests/rustools.rs"
@@ -57,4 +61,5 @@ rocket_codegen = "0.3.5"
 diesel = { version = "1.0.0", features = ["postgres"] }
 diesel_infer_schema = { version = "1.0.0", features = ["postgres"] }
 dotenv = "0.10.1"
+rocksdb = "0.8.2"
 
